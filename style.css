@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.preloader{
+  position: absolute;
+  top: 0vh;
+  left: 0%;
+  z-index: 999;
+  width: 100%;
+  height: 100vh;
+  padding: 40vh 40%;
+  background-color: white;
+}
+.hide{
+  display: none;
+}
+
+.video-container{
+  width: 100%;
+  height: 100vh;
+  z-index: -2;
+  object-fit: cover;
+}
+h1{
+  position: absolute;
+  top: 40vh;
+  left: 40%;
+}
+.playButton, .pauseButton{
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100vh;
+  min-height: 100vh;
+  opacity: 0;
+}
+.playButton{
+  display: none;
+}
